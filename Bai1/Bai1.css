@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 950px;
+    width: 1200px;
+    background-color:#6699FF;
+}
+.content{
+    border-bottom: 5px white dotted;
+
+}
+.header{
+    height: 80px;
+    position: relative;
+    border-bottom: 5px white dotted;
+}
+.header ul li,
+.header .text{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+.text{
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 5px 3px 10px blue;
+}
+.header  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.left,.right{
+    height: 620px;
+    position: relative;
+
+}
+
+.left{
+    width: 700px;
+    display: inline-block;
+}
+.right{
+    width: 490px;
+    display: inline-block;
+}
+.left .title{
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 5px;
+    color: aliceblue;
+    font-weight: 4px;
+}
+.left>p{
+    margin-left: 5px;
+    color: aliceblue;
+}
+.left .title,
+.left>p{
+    display: inline-block;
+}
+.r1,.r2,.r3,.r4,.r5,.r6{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+}
+.r1 input,.r2 input,.r3 input,.r4 input,.r5 input,.r6 textarea{
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    border-radius: 5px;
+    height: 20px;
+}
+.r6{
+    height: 300px;
+}
+.r6 textarea{
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    border-radius: 5px;
+    height: 100px;
+}
+.r1 select{
+    position: absolute;
+    left: 250px;
+
+}
+.left label{
+    width: 250px;
+    margin-left: 40px;
+}
+.form input{
+    margin-left: 200px;
+    position: absolute;
+    right: 0;
+}
+.r6 .lbl label
+{
+    display: inline-block;
+    width: 200px;
+}
+
+.r6 textarea {
+    margin-left: 200px;
+}
+button{
+    width: 50px;
+    background-color: rgb(225, 220, 220);
+    border: 2px dashed black;
+}
+.buton{
+    position: absolute;
+    top: 430px;
+    left: 257px;
+}
+.right img{
+    max-width: 500px;
+    height: 300px;
+    margin-top: 70px;
+}
+.right h1{
+    margin-left: 20px;
+    color: blue;
+    text-shadow: 2px 2px 2px blue;
+    margin-top: 20px;
+}
+.right p{
+    color: blue;
+    margin-top: 30px;
+    margin-left:50px ;
+    text-shadow: 2px 2px 2px blue;
+}
+
+.footer h4,
+.footer p{
+    color: aliceblue;
+    text-align: center;
+}
+.footer h4{
+    margin-top: 20px;
+}
+
+
+
